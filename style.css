@@ -48,19 +48,21 @@ html{
     gap: 3rem;
     justify-content: center;
     align-items: center;
-
+    padding:1.6rem;
+    border-bottom: 1rem solid blue;
 }
 
-.education-and-training{
+.section-heading{
     font-size: 5rem;
-    padding-bottom: 4rem;
+    /* padding-bottom: 4rem; */
+
 }
 
-.ilaiauni-logo{
+.institution-logo{
     width: 10rem;
 
 }
-.ilaiauni-container{
+.education-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,10 +73,11 @@ html{
     border-top: 0.2rem dashed blue;
     width: 80rem;
 }
-.ilaiauni-text-container{
+.education-text-container{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    width: 80rem;
     h3{
         font-size: 3rem;
     }
@@ -95,6 +98,86 @@ html{
     p{
         font-size: 1.5rem;
     }
-   
+}
+
+.work-experience-container{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    border-bottom: 1rem solid blue;
+    padding:1.6rem;
+
+}
+.work-experience-text-container, .skill-text-container {
+    padding:2rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.2rem dashed blue;
+    border-top: 0.2rem dashed blue;
+    h3{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.6rem;
     
+    }
+    ul{
+        
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: center;
+        align-items: start;
+        padding-left: 5rem;
+        li{
+            font-size: 1.6rem;
+
+        }
+    }
+    span{
+        
+        font-size: 1.4rem;
+        /* margin-top: 7rem; */
+
+    }
+
+}
+
+.skills-container{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;   
+    align-items: center;
+    p{
+        font-size: 3rem;
+    }
+    span{
+        
+        padding-left: 5rem;
+    }
+}
+
+ul{     
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: start;
+    padding-left: 5rem;
+}
+span{
+        
+    font-size: 1.6rem;
+    /* margin-top: 7rem; */
+}
+
+ li{
+    font-size: 1.6rem;
+
 }
