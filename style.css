@@ -52,5 +52,49 @@ html{
 }
 
 .education-and-training{
-    font-size: 4rem;
+    font-size: 5rem;
+    padding-bottom: 4rem;
+}
+
+.ilaiauni-logo{
+    width: 10rem;
+
+}
+.ilaiauni-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    /* padding-bottom: 2rem; */
+    padding:2rem;
+    border-bottom: 0.2rem dashed blue;
+    border-top: 0.2rem dashed blue;
+    width: 80rem;
+}
+.ilaiauni-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    h3{
+        font-size: 3rem;
+    }
+    div{
+        display: flex;
+        gap: 4rem;
+        strong{
+            font-size: 1.6rem;
+        }
+        span{
+            font-size: 1.4rem;
+            a{
+                /* text-decoration: none; */
+                color: black;
+            }
+        }
+    }
+    p{
+        font-size: 1.5rem;
+    }
+   
+    
 }
