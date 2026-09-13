@@ -2,8 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-
 }
 body{
     font-family: Arial, sans-serif;
@@ -13,7 +11,6 @@ body{
 html{
     font-size: 62.5%;
 }
-
 .header{
     margin-top: 5rem;
     display: flex;
@@ -40,7 +37,6 @@ html{
         }
     }
 }
-
 .education{
     margin-top: 4rem;
     display: flex;
@@ -51,23 +47,17 @@ html{
     padding:1.6rem;
     border-bottom: 1rem solid blue;
 }
-
 .section-heading{
     font-size: 5rem;
-    /* padding-bottom: 4rem; */
-
 }
-
 .institution-logo{
     width: 10rem;
-
 }
 .education-container{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 7rem;
-    /* padding-bottom: 2rem; */
     padding:2rem;
     border-bottom: 0.2rem dashed blue;
     border-top: 0.2rem dashed blue;
@@ -90,7 +80,6 @@ html{
         span{
             font-size: 1.4rem;
             a{
-                /* text-decoration: none; */
                 color: black;
             }
         }
@@ -99,7 +88,6 @@ html{
         font-size: 1.5rem;
     }
 }
-
 .work-experience-container, .skills-container, .projects, .footer{
     margin-top: 4rem;
     display: flex;
@@ -109,7 +97,6 @@ html{
     align-items: center;
     border-bottom: 1rem solid blue;
     padding:1.6rem;
-
 }
  .text-container {
     padding:2rem;
@@ -123,10 +110,8 @@ html{
     }
     p{
         font-size: 1.6rem;
-    
     }
-    ul{
-        
+    ul{        
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
@@ -135,18 +120,12 @@ html{
         padding-left: 5rem;
         li{
             font-size: 1.6rem;
-
         }
     }
     span{
-        
         font-size: 1.4rem;
-        /* margin-top: 7rem; */
-
     }
-
 }
-
 .skills-container{
     p{
         font-size: 3rem;
@@ -156,7 +135,6 @@ html{
         padding-left: 5rem;
     }
 }
-
 ul{     
     display: flex;
     flex-direction: column;
@@ -165,23 +143,16 @@ ul{
     align-items: start;
     padding-left: 5rem;
 }
-span{
-        
+span{        
     font-size: 1.6rem;
-    /* margin-top: 7rem; */
 }
-
 li{
     font-size: 1.6rem;
-
 }
-
-.footer{
-    
+.footer{   
     div{
 
         display: flex;
-        /* flex-direction: column; */
         align-items: center;
         justify-content: center;
         gap: 2rem;
