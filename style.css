@@ -72,7 +72,7 @@ html{
     border-bottom: 0.2rem dashed blue;
     border-top: 0.2rem dashed blue;
     width: 80rem;
-}
+} 
 .education-text-container{
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@ html{
     }
 }
 
-.work-experience-container{
+.work-experience-container, .skills-container, .projects, .footer{
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -111,7 +111,7 @@ html{
     padding:1.6rem;
 
 }
-.work-experience-text-container, .skill-text-container {
+ .text-container {
     padding:2rem;
     gap: 1rem;
     display: flex;
@@ -148,12 +148,6 @@ html{
 }
 
 .skills-container{
-    margin-top: 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;   
-    align-items: center;
     p{
         font-size: 3rem;
     }
@@ -177,7 +171,43 @@ span{
     /* margin-top: 7rem; */
 }
 
- li{
+li{
     font-size: 1.6rem;
 
 }
+
+.footer{
+    
+    div{
+
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        p{
+            font-size: 2rem;
+        }
+        a, li{
+            color: black;
+            font-size: 2rem;
+        }
+    }
+}.footer-text-container{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.2rem dashed blue;
+    border-top: 0.2rem dashed blue;
+    gap: 9rem;
+    padding:2rem;
+
+}
+.code-example pre {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 1.6rem;
+}
+
